@@ -1,0 +1,27 @@
+{
+    "name": "bolt/core-developer-tools",
+    "description": "Core developer tools",
+    "type": "bolt-extension",
+    "keywords": [
+        "core-developer"
+    ],
+    "require": {
+        "php": "^7.1",
+        "bolt/bolt": "^3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gawain Lynch",
+            "email": "gawain.lynch@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\CoreDeveloper\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-class": "Bolt\\Extension\\CoreDeveloper\\ToolsExtension"
+    }
+}
