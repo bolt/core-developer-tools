@@ -25,9 +25,8 @@ development **only**.
 
 Clone the repository to somewhere local on a development machine, and add the
 full path to the cloned repositories `src/` directory in your Bolt git clone's
-root `composer.json`.
+root `composer.json` and run `composer dumpautoload` afterwards.
  
-
 ### `composer.json`
 
 ```json
