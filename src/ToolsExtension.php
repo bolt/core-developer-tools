@@ -20,6 +20,7 @@ class ToolsExtension extends SimpleExtension
     {
         return [
             new Command\LocaleUpdate(),
+            new Command\TestDbSchemaUpdate(),
         ];
     }
 }
